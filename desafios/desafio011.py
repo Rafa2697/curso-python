@@ -4,3 +4,7 @@ altura = float(input('Qual a altura da parece? '))
 largura = float(input('Qual a largura da parece? '))
 
 mq = largura * altura
+tinta = mq / 2
+
+print('sua parede tem a dimensão de {} x {} e sua área de {}m²'.format(largura,altura,mq))
+print('Para pintar essa parede você vai precisar de {} litros de tinta'.format(tinta))
