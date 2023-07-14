@@ -6,10 +6,10 @@
 - Quantas letras tem o primeiro nome
 '''
 
-nome = str(input("Digite seu nome completo: "))
+nome = str(input("Digite seu nome completo: ")).strip() # vai eliminar os espaçõs de antes e depois
 
-print(nome.upper())
-print(nome.lower())
- 
+print('Seu nome maiúsculas é {}'.format(nome.upper()))
+print('Seu nome minúsculas é {}'.format(nome.lower()))
+print("Seu nome tem ao todo {} letras".format(len(nome) - nome.count(' '))) #quantidade de letras menos quantidade de espaços
 dividido = nome.split()
-print(len(dividido[0]))
+print(len(dividido[0]))  
