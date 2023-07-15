@@ -1,8 +1,8 @@
 #aula sobre manipulação de caracteres
 
 
-frase = str('  curso em video Python    ')
-print(frase)
+frase = str('curso de python no cursoemvideo')
+print(frase[:5])
 print(frase[9:14]) #o ultimo valor não entra na contagem
 print(frase[9:21:2]) # vai ler pulanod de dois em dois
 print(frase[:5]) # vai iniciar em zero até 5
@@ -12,6 +12,7 @@ len(frase)# mostra o comprimento
 print(len(frase))
 frase.count('o') # mostra quantos 'o' minusculo vai aparecer 
 frase.find('deo')# vai indicar a posição que começou a sequencia 'deo'
+frase.rfind('deo')# ira mostrar da direita para esquerda, termina a sequencia.
 frase.find('android') # quando a estring não existe o python retorna -1
 frase.upper()# a string vai ficar em maiuscula
 frase.lower()# deixa a string em minusculo
