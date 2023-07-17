@@ -17,7 +17,7 @@ media = (nota1 + nota2) / 2
 
 if media < 5.0:
     print('sua nota final foi {:1f} REPROVADO'.format(media))
-elif media >= 5 and media < 6.9:
+elif media >= 5 and media < 7:
     print('sua nota final foi {:.1f} RECUPERAÇÃO'.format(media))
 else:
     print('Sua nota final foi {:.1f} APROVADO'.format(media))
