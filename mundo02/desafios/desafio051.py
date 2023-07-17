@@ -1,0 +1,1 @@
+#desenvolva um porgrama que leia o primeiro termo e a razão de um PA. No final, mostr os 10 peimeiros dessa progressão.

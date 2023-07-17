@@ -1,0 +1,1 @@
+#faça um programa que calcule a soma de todos os numeros impares que são multiplo de tres e que se encontre no intervalo de 1 e 500
