@@ -7,4 +7,6 @@ c = numero
 while c > 0:
     print('{}'.format(c), end=' ')
     c = c-1
-#print('fatorial desse numero é {}'.format())
+    f = c * c
+
+print('fatorial desse numero é {}'.format())
