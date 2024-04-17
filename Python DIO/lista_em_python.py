@@ -57,14 +57,38 @@
 
 # print(lista)
 
-#count
-cores = ["vermelho", "azul", "verde", "azul"]
-cores.count("vermelho")
-cores.count("Azul")
-cores.count("verde")
+# #count
+# cores = ["vermelho", "azul", "verde", "azul"]
+# cores.count("vermelho")
+# cores.count("Azul")
+# cores.count("verde")
 
-print(cores)
+# print(cores)
 
-cores.extend(["cinza", "marrom"]) #acrescenta uma lista a outra.
+# cores.extend(["cinza", "marrom"]) #acrescenta uma lista a outra.
 
-print(cores)
+# print(cores)
+
+# #index
+
+# print(cores.index("verde"))
+
+# #pop
+# linguagens = ["python", "js", "c", "java"]
+
+# print(linguagens.pop()) #remove o ultimo elemento
+
+#remove
+# linguagens.remove("c") # remove o elemento apontado.
+# linguagens.reverse() #coloca a lista ao contrario
+# linguagens.sort() #vai ordenar de forma alfabetica
+# linguagens.sort(reverse=True) #vai ordenar de forma alfabetica ao contrário
+# linguagens.sort(key=lambda x: len(x)) #vai ordenar por tamanho da palavra
+# linguagens.sort(key=lambda x: len(x), reverse=True) #vai ordenar por tamanho da palavra
+# print(linguagens) 
+# print(len(linguagens)) #verifica o tamanho da strig ou lista
+
+
+
+
+print([n**2 if n > 6 else n for n in range(10) if n % 2 == 0])
