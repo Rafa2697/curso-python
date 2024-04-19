@@ -36,16 +36,16 @@
 
 ############# métodos de classe list ###########
 
-# lista = []
+lista = []
 
-# #append
-# lista.append(1)
-# lista.append("rafael")
-# lista.append(True)
+#append
+lista.append(1)
+lista.append("rafael")
+lista.append(True)
 
-# print(lista)
+print(lista)
 
-# #clear
+#clear
 # lista.clear()
 # print(lista)
 
@@ -57,7 +57,7 @@
 
 # print(lista)
 
-# #count
+#count
 # cores = ["vermelho", "azul", "verde", "azul"]
 # cores.count("vermelho")
 # cores.count("Azul")
@@ -91,4 +91,4 @@
 
 
 
-print([n**2 if n > 6 else n for n in range(10) if n % 2 == 0])
+# print([n**2 if n > 6 else n for n in range(10) if n % 2 == 0])
